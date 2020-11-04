@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { EpubComponent } from './epub/epub.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    EpubComponent
   ],
   imports: [
     BrowserModule,
